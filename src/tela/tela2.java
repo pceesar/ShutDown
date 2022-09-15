@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package tela;
 
 import java.io.IOException;
@@ -13,15 +10,12 @@ import java.util.Scanner;
  */
 public class tela2 extends javax.swing.JFrame {
 
-    /**
-     * Creates new form tela2
-     */
     public tela2() {
         initComponents();
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+
     private void initComponents() {
 
         btn1hota = new javax.swing.JButton();
@@ -147,9 +141,9 @@ public class tela2 extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void btn1hotaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1hotaActionPerformed
+    private void btn1hotaActionPerformed(java.awt.event.ActionEvent evt) {
            try {
 			Process process = Runtime.getRuntime().exec("shutdown -s -t 3600");
 			Scanner leitor = new Scanner(process.getInputStream());
@@ -159,7 +153,7 @@ public class tela2 extends javax.swing.JFrame {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-    }//GEN-LAST:event_btn1hotaActionPerformed
+    }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
            try {
