@@ -14,7 +14,6 @@ public class tela2 extends javax.swing.JFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
 
     private void initComponents() {
 
